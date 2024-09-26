@@ -17,7 +17,7 @@ function Cards() {
               path='/3RRS'
             />
             <CardItem 
-              src='images/piano.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.jpg`}
               text='3D printed Piano'
               label='Designing'
               path='/piano'
@@ -25,19 +25,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem 
-              src='images/leafRoomba.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/leafRoomba.jpg`}
               text='Leaf Roomba'
               label='Robotics'
               path='/leafRoomba'
             />
             <CardItem 
-              src='images/motorplate.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/motorplate.jpg`}
               text='Motorcycle Plate Detection'
               label='Coding'
               path='/motorPlate'
             />
             <CardItem 
-              src='images/customgpt.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/customgpt.jpg`}
               text='Custom LLM with chatGPT'
               label='Coding'
               path='/customgpt'

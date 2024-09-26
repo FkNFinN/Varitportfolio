@@ -21,7 +21,7 @@ import Bts from './components/pages/bts.js';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/Varitportfolio'>
         <Navbar />
         <Routes>
           <Route path='/' exact Component={Home} />
