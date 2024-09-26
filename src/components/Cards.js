@@ -3,6 +3,7 @@ import CardItem from './CardItem';
 import './Cards.css'
 
 function Cards() {
+  console.log(`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/3rps.jpg`)
   return (
     <div className='cards'>
       <h1>Interesting Project!</h1>
@@ -10,7 +11,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem 
-              src='images/3rps.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/3rps.jpg`}
               text='3RRS Parallel Manipulator'
               label='Robotics'
               path='/3RRS'

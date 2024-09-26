@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/Finn.mp4' autoPlay loop muted />
+      <video src={`${process.env.REACT_APP_PUBLIC_VIDEOS_URL}/Finn.mp4`} autoPlay loop muted />
       <h1>Varit Roongrotekarnkha</h1>
       <p>Robotics Engineer</p>
       <div className='hero-btns'>
@@ -20,7 +20,7 @@ function HeroSection() {
         <Button className='btns' 
         buttonStyle='btn--primary' 
         ButtonSize='btn--large'>
-        <i className='fa-solid fa-phone' /> Contacts
+          <i className='fa-solid fa-phone' /> Contacts
         </Button>
       </div>
     </div>
