@@ -8,7 +8,7 @@ function Guitar() {
     <div className="project-page">
       <div className="project-image-card">
         <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/guitar.jpg`} alt="guitar" />
-        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/guitar2.JPG`} alt="guitar2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/guitar2.jpg`} alt="guitar2" />
       </div>
 
       <div className="project-description">

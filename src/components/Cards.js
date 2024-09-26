@@ -16,7 +16,7 @@ function Cards() {
               path='/3RRS'
             />
             <CardItem 
-              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.JPG`}
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.jpg`}
               text='3D printed Piano'
               label='Designing'
               path='/piano'

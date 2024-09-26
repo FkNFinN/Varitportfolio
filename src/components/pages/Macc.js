@@ -8,7 +8,7 @@ function Macc() {
     <div className="project-page">
       <div className="project-image-card">
         <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/macc.jpg`} alt="Cartesian Drawing Robot" />
-        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/macc2.JPG`} alt="Cartesian Drawing Robot2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/macc2.jpg`} alt="Cartesian Drawing Robot2" />
       </div>
 
       <div className="project-description">

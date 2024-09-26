@@ -16,7 +16,7 @@ function CardsProject() {
               path='/3RRS'
             />
             <CardItem 
-              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.JPG`}
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.jpg`}
               text='3D printed Piano'
               label='Designing'
               path='/piano'
@@ -46,7 +46,7 @@ function CardsProject() {
 
           <ul className='cards__items'>
             <CardItem 
-              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/avian.JPG`}
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/avian.jpg`}
               text='Passive Joint Avian Leg'
               label='Designing'
               path='/avian'
@@ -79,7 +79,7 @@ function CardsProject() {
               path='/guitar'
             />
             <CardItem 
-              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/bts.JPG`}
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/bts.jpg`}
               text='Sky Train Station'
               label='Designing'
               path='/bts'
