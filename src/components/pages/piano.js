@@ -7,8 +7,8 @@ function Piano() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.jpg`} alt="piano" />
-        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano2.jpg`} alt="piano2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.JPG`} alt="piano" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano2.JPG`} alt="piano2" />
         <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano3.jpg`} alt="piano3" />
       </div>
 

@@ -7,8 +7,8 @@ function Customgpt() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src="/images/customgpt.jpg" alt="customgpt" />
-        <img src="/images/customgpt2.jpg" alt="customgpt2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/customgpt.jpg`} alt="customgpt" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/customgpt2.jpg`} alt="customgpt2" />
       </div>
 
       <div className="project-description">

@@ -7,8 +7,8 @@ function MotorPlate() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src="/images/motorplate.jpg" alt="MotorPlate" />
-        <img src="/images/motorplate2.jpg" alt="MotorPlate2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/motorplate.jpg`} alt="MotorPlate" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/motorplate2.jpg`} alt="MotorPlate2" />
       </div>
 
       <div className="project-description">

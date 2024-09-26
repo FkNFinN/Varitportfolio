@@ -10,25 +10,25 @@ function PinNote() {
         <div className='pins__wrapper'>
           <ul className='pins__items'>
             <PinNoteItem 
-              src='images/1.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/1.jpg`}
               text='IRO 2019'
               label=''
               path='https://www.iroc.org'
             />
             <PinNoteItem 
-              src='images/2.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/2.jpg`}
               text='NERC 2020'
               label=''
               path='https://www.facebook.com/nercrobot/'
             />
             <PinNoteItem 
-              src='images/3.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/3.jpg`}
               text='CRU 8th'
               label=''
               path='https://www.facebook.com/electronics.cru'
             />
             <PinNoteItem 
-              src='images/4.jpg'
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/4.jpg`}
               text='WRO 2018'
               label=''
               path='https://gammaco.co.th/wro/'

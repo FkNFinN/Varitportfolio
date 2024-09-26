@@ -3,7 +3,6 @@ import CardItem from './CardItem';
 import './Cards.css'
 
 function Cards() {
-  console.log(`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/3rps.jpg`)
   return (
     <div className='cards'>
       <h1>Interesting Project!</h1>
@@ -17,7 +16,7 @@ function Cards() {
               path='/3RRS'
             />
             <CardItem 
-              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.jpg`}
+              src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/piano.JPG`}
               text='3D printed Piano'
               label='Designing'
               path='/piano'

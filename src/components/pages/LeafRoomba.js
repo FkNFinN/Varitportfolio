@@ -7,8 +7,8 @@ function LeafRoomba() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src="/images/leafRoomba.jpg" alt="Leaf Roomba" />
-        <img src="/images/leafRoomba2.jpg" alt="Leaf Roomba2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/leafRoomba.jpg`} alt="Leaf Roomba" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/leafRoomba2.jpg`} alt="Leaf Roomba2" />
       </div>
 
       <div className="project-description">

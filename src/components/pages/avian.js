@@ -7,8 +7,8 @@ function Avian() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/avian.jpg`} alt="avian" />
-        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/avian2.jpg`} alt="avian2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/avian.JPG`} alt="avian" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/avian2.JPG`} alt="avian2" />
       </div>
 
       <div className="project-description">

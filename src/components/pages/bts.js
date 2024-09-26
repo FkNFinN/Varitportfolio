@@ -7,8 +7,8 @@ function Bts() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src="/images/bts.jpg" alt="bts" />
-        <img src="/images/bts2.jpg" alt="bts2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/bts.JPG`} alt="bts" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/bts2.jpg`} alt="bts2" />
       </div>
 
       <div className="project-description">

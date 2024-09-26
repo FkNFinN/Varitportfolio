@@ -5,7 +5,7 @@ function Profile() {
   return (
     <div>
       <div className='profile-container'>
-        <video src='/videos/Profile.mp4' autoPlay loop muted />
+        <video src={`${process.env.REACT_APP_PUBLIC_VIDEOS_URL}/Profile.mp4`} autoPlay loop muted />
         <div className='note-container'>
           <h1>How did I start?</h1>
           <p>

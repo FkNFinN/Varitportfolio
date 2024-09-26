@@ -7,9 +7,9 @@ function Pcb() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src="/images/pcb.jpg" alt="pcb" />
-        <img src="/images/pcb2.jpg" alt="pcb2" />
-        <img src="/images/pcb3.jpg" alt="pcb3" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/pcb.jpg`} alt="pcb" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/pcb2.jpg`} alt="pcb2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/pcb3.jpg`} alt="pcb3" />
       </div>
 
       <div className="project-description">

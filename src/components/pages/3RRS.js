@@ -7,7 +7,7 @@ function RRS() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src="/images/3rps.jpg" alt="3RRS Parallel Manipulator" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/3rps.jpg`} alt="3RRS Parallel Manipulator" />
       </div>
 
       <div className="project-description">

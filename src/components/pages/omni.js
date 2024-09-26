@@ -7,8 +7,8 @@ function Omni() {
   return (
     <div className="project-page">
       <div className="project-image-card">
-        <img src="/images/omni.jpg" alt="omni" />
-        <img src="/images/omni2.jpg" alt="omni2" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/omni.jpg`} alt="omni" />
+        <img src={`${process.env.REACT_APP_PUBLIC_IMAGES_URL}/omni2.JPG`} alt="omni2" />
       </div>
 
       <div className="project-description">
