@@ -39,3 +39,41 @@
   color: #242424;
   transition: all 0.3s ease-out;
 }
+
+.btnb {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btnb--primary {
+  background-color: #252e48;
+  color: #242424;
+  border: 1px solid #252e48;
+}
+
+.btnb--outline {
+  background-color: transparent;
+  color: #252e48;
+  padding: 8px 20px;
+  border: 1px solid #252e48;
+  transition: all 0.3s ease-out;
+}
+
+.btnb--medium {
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.btnb--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btnb--medium:hover, .btnb--large:hover {
+  background: #e7e7e7;
+  color: #242424;
+  transition: all 0.3s ease-out;
+}
