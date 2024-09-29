@@ -23,9 +23,9 @@ function FooterContact() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Information</h2>
-            <Link to='https://drive.google.com/file/d/1DBEzdRmYmdDRoTyfODcYrVwYvITWSo76/view?usp=sharing' target='_blank'>CV</Link>
-            <Link to='https://drive.google.com/file/d/1DBEzdRmYmdDRoTyfODcYrVwYvITWSo76/view?usp=sharing' target='_blank'>Resume</Link>
-            <Link to='https://drive.google.com/file/d/1DBEzdRmYmdDRoTyfODcYrVwYvITWSo76/view?usp=sharing' target='_blank'>Portfolio</Link>
+            <Link to='https://drive.google.com/file/d/1m8UeVJjtlloLqEROH-OPSB6WawzaRrVq/view?usp=sharing' target='_blank'>CV</Link>
+            <Link to='https://drive.google.com/file/d/1ziTHnD2jMEBPfl0IyudU5T8kMG0N81Nq/view?usp=sharing' target='_blank'>Resume</Link>
+            <Link to='https://drive.google.com/file/d/1db1ddTNlHPF83qZikg-BXeN4YfYHq7ne/view?usp=sharing' target='_blank'>Portfolio</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
